@@ -1,0 +1,11 @@
+version: '3'
+services:
+  backend:
+    image: leedmx/codec:dev
+    ports:
+      - 8080:8080
+
+  frontend:
+    image: leedmx/codec-consumer:dev
+    ports:
+      - 3000:3000
